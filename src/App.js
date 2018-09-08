@@ -160,19 +160,6 @@ class App extends Component {
               </Grid>
             </Grid>
   
-            <Grid container spacing={12} className='grid-control'>
-              <Grid item xs={6}>
-                <label htmlFor='priorityDropdown' className=''>Priority</label>
-              </Grid>
-                <Grid item xs={6} className='dropdown-class'>
-                  <select name='priorityDropdown' value={this.state.selectedPriority} onChange={this.handleChange} className='select-class'>
-                    {priority.map(function (item) {
-                      return <option value={item}>{item}</option>;
-                    })}
-                  </select>
-                </Grid>
-            </Grid>
-  
           <Grid container spacing={12} className='grid-control'>
             <Grid item xs={6}>
               <label htmlFor='latitudeDropdown' className=''>Latitude</label>
@@ -187,7 +174,7 @@ class App extends Component {
           </Grid>
   
   
-            <Grid container spacing={12} className='grid-control last-grid'>
+            <Grid container spacing={12} className='grid-control'>
               <Grid item xs={6}>
               <label htmlFor='longitudeDropdown' className=''>Longitude</label>
               </Grid>
@@ -198,6 +185,19 @@ class App extends Component {
                 })}
               </select>
                 </Grid>
+            </Grid>
+          
+            <Grid container spacing={12} className='grid-control last-grid'>
+              <Grid item xs={6}>
+              <label htmlFor='priorityDropdown' className=''>Priority</label>
+              </Grid>
+              <Grid item xs={6} className='dropdown-class'>
+                <select name='priorityDropdown' value={this.state.selectedPriority} onChange={this.handleChange} className='select-class'>
+                    {priority.map(function (item) {
+                      return <option value={item}>{item}</option>;
+                    })}
+                </select>
+              </Grid>
             </Grid>
 
             <Button color='primary' variant='contained' id='form-save' className={classes.button} type='submit'>Save and finish later</Button>
