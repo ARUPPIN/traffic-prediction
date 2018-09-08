@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #E1F5B9;
+  background-color: #bcf6f9;
   height: 150px;
   padding: 20px;
   color: #000
@@ -28,6 +28,30 @@
 
 .App-intro {
   font-size: large;
+  margin-top: 80px;
+}
+
+.dropdown-class {
+  text-align: left
+}
+
+.form-save {
+  margin-top: 40px;
+}
+
+.grid-control{
+  margin: 10px 0;
+}
+
+.last-grid {
+  margin-top: 10px;
+  margin-bottom: 40px
+}
+
+.select-class {
+  height: 30px;
+  border-radius: 10px;
+  font-size: 14px;
 }
 
 @keyframes App-logo-spin {
