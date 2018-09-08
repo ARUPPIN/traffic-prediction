@@ -9,6 +9,7 @@
     "react-bootstrap": "^0.32.4",
     "react-bootstrap-select": "^0.14.0",
     "react-dom": "^16.5.0",
+    "react-overlay-loading": "^1.0.3",
     "react-scripts": "1.1.5"
   },
   "devDependencies": {

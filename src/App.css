@@ -3,9 +3,8 @@
 }
 
 .App-logo {
-  height: 80px;
+  height: 158px;
   float: left;
-  margin-top: 30px;
 }
 
 .App-banner {
@@ -28,7 +27,12 @@
 
 .App-intro {
   font-size: large;
-  margin-top: 80px;
+  padding-top: 80px;
+  background-image: url('./resources/govhack-logo.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: #fffeea;
+  height: 70vh;
 }
 
 .dropdown-class {
