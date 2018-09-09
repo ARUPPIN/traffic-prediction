@@ -3,18 +3,20 @@
 }
 
 .App-logo {
-  height: 158px;
+  height: 120px;
+  width: 250px;
   float: left;
 }
 
 .App-banner {
   float: right;
-  margin-top: -10px;
+  height: 120px;
+  width: 250px;
 }
 
 .App-header {
-  background-color: #bcf6f9;
-  height: 150px;
+  background-color: #94BDF0;
+  height: 120px;
   padding: 20px;
   color: #000
 ;
@@ -22,17 +24,16 @@
 
 .App-title {
   font-size: 2em;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .App-intro {
   font-size: large;
-  padding-top: 80px;
-  background-image: url('./resources/govhack-logo.png');
+  padding-top: 30px;
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-color: #fffeea;
-  height: 70vh;
+  background-color: #E0DBDB;
+  height: 76vh;
 }
 
 .dropdown-class {
@@ -49,7 +50,7 @@
 
 .last-grid {
   margin-top: 10px;
-  margin-bottom: 40px
+  margin-bottom: 30px
 }
 
 .select-class {
@@ -61,7 +62,7 @@
 
 .response-result{
   text-align: center;
-  margin-top: 65px;
+  margin-top: 35px;
 }
 
 @keyframes App-logo-spin {
