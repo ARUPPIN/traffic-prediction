@@ -91,7 +91,7 @@ class App extends Component {
         // exceptions from actual bugs in components.
         (error) => {
           this.setState({loading: false})
-          this.setState({response: {success: 'visible', value: '63.5%'}})
+          this.setState({response: {success: 'visible', value: '<>%'}})
     }
       )
     }, 1000)
