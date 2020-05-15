@@ -156,7 +156,7 @@ class App extends Component {
       {priority.map(function (item) {
         return <option value={item}>{item}</option>;
       })}
-  </select>
+	  </select>
     </Grid>
     </Grid>
     
@@ -169,7 +169,7 @@ class App extends Component {
       {alcoholTime.map(function (item) {
         return <option value={item}>{item}</option>;
       })}
-  </select>
+	</select>
     </Grid>
     </Grid>
     
@@ -182,7 +182,7 @@ class App extends Component {
       {timing.map(function (item) {
         return <option value={item}>{item}</option>;
       })}
-  </select>
+	</select>
     </Grid>
     </Grid>
     
