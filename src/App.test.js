@@ -8,6 +8,7 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div)
 })
 
+//testcaset to verify if rendered without crash
 it('renders without crashing and shows all options', () => {
   const div = document.createElement('div')
   ReactDOM.render(<App />, div)
