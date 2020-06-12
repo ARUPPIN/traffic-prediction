@@ -104,8 +104,6 @@ class App extends Component {
       this.setState({loading: false})
     this.setState({response: {success: 'visible', value: result.result}})
   },
-    // Note: it's important to handle errors here
-    // instead of a catch() block so that we don't swallow
     // exceptions from actual bugs in components.
     (error) => {
       this.setState({loading: false})
